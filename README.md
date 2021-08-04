@@ -1,13 +1,32 @@
 # amir-typescript-backend
-My own version of express typescript template. It was from express-generator-typescript but I stripe packages that I don't use and makes file structure changes
+My own version of express typescript template. It was from express-generator-typescript but I stripe down the packages that I don't use and also I change the file structure
 
 ## usage
-#### npm run start:dev
+Clone the repository first
+```
+git clone https://github.com/AngheloAmir/amir-typescript-backend.git
+```
+####
+Then install (downloads the node_modules)
+```
+npm install
+```
+
+## npm scripts
+```
+npm run start:dev
+```
 To start the developement server. Everytime time there is changes, ESLint will run automatically because the nodemon contains a modified code to run Eslint every file changes
-#### npm run build
+
+```
+npm run build
+```
 To build the project which is NECESSARY before the uploading the project to production
-#### npm run start
-To run the production build. Remove the /scr folder (in the root ofcouse) as this folder is not use during production of the project
+
+```
+npm run start
+```
+Run the production build. Remove the /scr folder (in the root ofcouse) as this folder is not use during production of the project
 
 ## updating the nodemon inside the enviroment-setup
 This project contains a modified nodemon but only the nodemon/lib/monitor/watcher.js has the only modification.  
