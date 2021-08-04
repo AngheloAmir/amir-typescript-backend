@@ -15,12 +15,15 @@ npm install
 ### During development .gitignore contents
 ```
 node_modules
-env
+env/development.env
+env/production.env
 dist
 ```
+if .env contains sensitive information it must not be included when publishing in Github
 ### During production .gitignore contents
 ```
 node_modules
+env/development.env
 src
 ```
 
