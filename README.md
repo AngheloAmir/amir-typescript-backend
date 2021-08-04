@@ -1,7 +1,7 @@
 # amir-typescript-backend
 My own version of express typescript template. It was from express-generator-typescript but I stripe down the packages that I don't use and also I change the file structure
 
-## usage
+# usage
 Clone the repository first
 ```
 git clone https://github.com/AngheloAmir/amir-typescript-backend.git
@@ -11,8 +11,20 @@ Then install (downloads the node_modules)
 ```
 npm install
 ```
+# Remember to add/change the .gitignore
+### During development .gitignore contents
+```
+node_modules
+env
+dist
+```
+### During production .gitignore contents
+```
+node_modules
+src
+```
 
-## npm scripts
+# npm scripts
 ```
 npm run start:dev
 ```
@@ -26,9 +38,9 @@ To build the project which is NECESSARY before the uploading the project to prod
 ```
 npm run start
 ```
-Run the production build. Remove the /scr folder (in the root ofcouse) as this folder is not use during production of the project
+Run the production build.
 
-## updating the nodemon inside the enviroment-setup
+# updating the nodemon inside the enviroment-setup
 This project contains a modified nodemon but only the nodemon/lib/monitor/watcher.js has the only modification.  
 Just delete the nodemon folder, and copy another nodemon from your node_modues and delete the code (in the watcher.js):
 ```javascript
@@ -61,5 +73,4 @@ function restartBus(matched) {
 ```
 which I added it at line 218 of the watcher.js
 
-
-## Lincess under MIT
+# Lincess under MIT
