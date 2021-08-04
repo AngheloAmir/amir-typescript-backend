@@ -24,6 +24,7 @@ if .env contains sensitive information it must not be included when publishing i
 ```
 node_modules
 env/development.env
+enviroment-setup
 src
 ```
 
