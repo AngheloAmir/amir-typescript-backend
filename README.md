@@ -13,7 +13,9 @@ To run the production build. Remove the /scr folder (in the root ofcouse) as thi
 This project contains a modified nodemon but only the nodemon/lib/monitor/watcher.js has the only modification.  
 Just delete the nodemon folder, and copy another nodemon from your node_modues and delete the code (in the watcher.js):
 ```javascript
-function restartBus(matched)
+function restartBus(matched) {
+  ... everything in this function
+}
 ```
 and replace it with the ff code:
 ```javascript
