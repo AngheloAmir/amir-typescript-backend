@@ -1,4 +1,4 @@
-# amir-typescript-backend
+# my-express-typescript-template
 My own version of express typescript template. It was from express-generator-typescript but I stripe down the packages that I don't use and also I change the file structure
 
 # usage
