@@ -4,7 +4,7 @@ My own version of express typescript template. It was from express-generator-typ
 # usage
 Clone the repository first
 ```
-git clone https://github.com/AngheloAmir/amir-typescript-backend.git
+git clone https://github.com/AngheloAmir/my-express-typescript-template.git
 ```
 ####
 Then install (downloads the node_modules)
