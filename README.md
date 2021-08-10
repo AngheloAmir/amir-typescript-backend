@@ -14,18 +14,24 @@ npm install
 # Remember to add/change the .gitignore
 ### During development .gitignore contents
 ```
-node_modules
-env/development.env
-env/production.env
-dist
+/node_modules
+/dist
+/backup
+/rest
+/build
+
+## Remove the lines for production
+/env/development.env
+/env/production.env
 ```
 if .env contains sensitive information it must not be included when publishing in Github
 ### During production .gitignore contents
 ```
-node_modules
-env/development.env
-enviroment-setup
-src
+/node_modules
+/dist
+/backup
+/rest
+/build
 ```
 
 # npm scripts
