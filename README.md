@@ -12,7 +12,6 @@ Then install (downloads the node_modules)
 npm install
 ```
 # Remember to add/change the .gitignore
-### During development .gitignore contents
 ```
 /node_modules
 /dist
@@ -23,15 +22,6 @@ npm install
 # /env/development.env
 # /env/production.env
 # /build
-```
-if .env contains sensitive information it must not be included when publishing in Github
-### During production .gitignore contents
-```
-/node_modules
-/dist
-/backup
-/rest
-/build
 ```
 
 # npm scripts
