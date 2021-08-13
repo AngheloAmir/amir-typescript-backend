@@ -18,11 +18,11 @@ npm install
 /dist
 /backup
 /rest
-/build
 
-## Remove the lines for production
-/env/development.env
-/env/production.env
+## Uncomment these for production!
+# /env/development.env
+# /env/production.env
+# /build
 ```
 if .env contains sensitive information it must not be included when publishing in Github
 ### During production .gitignore contents
